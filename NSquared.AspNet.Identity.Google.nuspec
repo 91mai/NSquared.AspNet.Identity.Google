@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>NSquared.AspNet.Identity.Google</id>
+        <version>0.0.0</version>
+        <authors>NSquared</authors>
+        <projectUrl>https://github.com/91mai/NSquared.AspNet.Identity.Google</projectUrl>
+        <iconUrl>https://avatars0.githubusercontent.com/u/10022788?v=3&amp;amp;s=200</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This package is for integrating Google OAuth into you application easily and quickly, it's depend on Asp.Net Identity.</description>
+        <language>zh-TW</language>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Microsoft.AspNet.Identity.Core" version="2.1.0" />
+                <dependency id="Microsoft.AspNet.Identity.Owin" version="2.1.0" />
+                <dependency id="Microsoft.Owin.Security.Google" version="3.0.0" />
+                <dependency id="Microsoft.Owin.Security.OAuth" version="3.0.0" />
+                <dependency id="Microsoft.Owin.Host.SystemWeb" version="3.0.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Content\App_Start\Startup.Auth.cs.pp" target="content\App_Start\Startup.Auth.cs.pp" />
+        <file src="Content\Controllers\AccountController.cs.pp" target="content\Controllers\AccountController.cs.pp" />
+        <file src="Content\Views\Account\Login.cshtml.pp" target="content\Views\Account\Login.cshtml.pp" />
+        <file src="Content\Startup.cs.pp" target="content\Startup.cs.pp" />
+    </files>
+</package>
