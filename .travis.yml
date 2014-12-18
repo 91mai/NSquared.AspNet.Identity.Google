@@ -1,7 +1,13 @@
 language: c
+
 install:
-- sudo add-apt-repository ppa:directhex/monoxide -y && sudo apt-get update
-- sudo apt-get install mono-devel mono-gmcs
-- mozroots --import --sync
-#script:
-#- bash BuildScripts/deploypackage.sh  
+  - sudo add-apt-repository ppa:directhex/monoxide -y && sudo apt-get update
+  - sudo apt-get install mono-devel mono-gmcs
+  - mozroots --import --sync
+
+script:
+  - bash BuildScripts/deploypackage.sh
+
+env:
+  global:
+    secure: h7pQsgY3JbU/uLvszTX6jEjhBbytUY1vwbvOuuBaerZFVFEmjk0HxVDr84FTr5TTQ6j9sZsRxu2PJEVt34eUez5dSjdZGYgOSqDgxKPE6sp2ZYqI8cZgMbtLWpRZhgWlR70wq0HnUQEYy8cB4AvOtv0KuH/pu5NOyxQB6w07Hkg=
