@@ -27,7 +27,7 @@ namespace $rootnamespace$
 
             app.UseGoogleAuthentication(
                 clientId: "<YOUR_CLIENTID>",
-                clientSecret: "<YOUR_CLIENTSECRET>-");
+                clientSecret: "<YOUR_CLIENTSECRET>");
             //app.UseGoogleAuthentication();
         }
     }
