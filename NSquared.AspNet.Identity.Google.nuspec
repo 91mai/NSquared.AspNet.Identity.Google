@@ -20,9 +20,9 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="Content\App_Start\Startup.Auth.cs.pp" target="content\App_Start\Startup.Auth.cs.pp" />
-        <file src="Content\Controllers\AccountController.cs.pp" target="content\Controllers\AccountController.cs.pp" />
-        <file src="Content\Views\Account\Login.cshtml.pp" target="content\Views\Account\Login.cshtml.pp" />
-        <file src="Content\Startup.cs.pp" target="content\Startup.cs.pp" />
+        <file src="Content/App_Start/Startup.Auth.cs.pp" target="content\App_Start\Startup.Auth.cs.pp" />
+        <file src="Content/Controllers/AccountController.cs.pp" target="content\Controllers\AccountController.cs.pp" />
+        <file src="Content/Views/Account/Login.cshtml.pp" target="content\Views\Account\Login.cshtml.pp" />
+        <file src="Content/Startup.cs.pp" target="content\Startup.cs.pp" />
     </files>
 </package>
